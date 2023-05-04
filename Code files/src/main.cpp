@@ -11,12 +11,24 @@
 #include <Wire.h>
 //Max30100 Library
 #include "MAX30100_PulseOximeter.h"
-#define REPORTING_PERIOD_MS     1000
+#define REPORTING_PERIOD_MS 1000
 //MAX30100 Setting
 PulseOximeter pox;
 uint32_t tsLastReport = 0;
 float SP02Reading;
 int BPMReading;
+//WIFI SETTING
+#define WIFI_NETWORK "WE783624"
+#define WIFI_PASSWORD "habebaahmed123"
+#define WIFI_TIMEOUT 20000
+
+//THINGSPEAK SETTING
+#define CHANNELID 2071403
+#define CHANNEL_API_WRITE_KEY "W43UNB33KUAVE3TW"
+WiFiClient Client;
+//MPU Object
+Adafruit_MPU6050 mpu;
+
  //OximeterFunctions
 void onBeatDetected()
 {
@@ -48,17 +60,7 @@ void onBeatDetected()
         tsLastReport = millis();
     }
  }
-//WIFI SETTING
-#define WIFI_NETWORK "WE783624"
-#define WIFI_PASSWORD "habebaahmed123"
-#define WIFI_TIMEOUT 20000
 
-//THINGSPEAK SETTING
-#define CHANNELID 2071403
-#define CHANNEL_API_WRITE_KEY "W43UNB33KUAVE3TW"
-WiFiClient Client;
-//MPU Object
-Adafruit_MPU6050 mpu;
 //WIFI FUNCTION
 void connectToWIFI(){
   Serial.print("connecting to network...");
@@ -101,7 +103,6 @@ void setup() {
 }
 
 void loop() {
-  void ThingSpeakGYROSCOPE();
 }
 
 
