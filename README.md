@@ -1,19 +1,21 @@
-![Our Logo](Logo.jpg)
 # EyeECG
+![Our Logo](Logo.jpg)
+
 ## Introduction 
 Hello Everyone, We are Habeba Ahmed and Shomoa Mohamed.
 We are Computer Engineering Students from Mansoura University, Egypt and We would love to share our graduation project with you.
 This is a part of our graduation project which is predicting myocardial infarction using retinal scans 
 This project concentrates on how to collect data to send to a moblie application that has an AI Model that predicts mycoardial Infarction (Heart Attack) using Demographic data which is Heart rate, Spo2, blood pressure and user posture.
 
-![Dell Website](Dell.jpeg)
 ## Dell Envision The Future Compition
 We are so proud that our team of 7 memebers are the First place winners in Dell Envision the Future compition in 2023.
 https://www.dell.com/en-ae/dt/campaigns/ecs-internet-things/envision-the-future/winners.htm#tab0=0
+![Dell Website](Dell.jpeg)
 
-![Hardware](Hardware.jpg)
 
 ## Hardware 
+![Hardware](Hardware.jpg)
+
 The hardware components of the system are selected strategically to enable the measurement of blood pressure and provide comprehensive cardiovascular health monitoring. These components include:
 
 1. Esp32: The Esp32 serves as the main processing unit in the system. It is chosen for its powerful capabilities in IoT applications and its suitability for wearable devices. The Esp32 integrates Wi-Fi and Bluetooth Low Energy (BLE) connectivity options, allowing seamless communication and data transfer between the wearable device and other devices or cloud platforms. Its processing power and memory capacity enable efficient data processing and analysis.
