@@ -10,7 +10,7 @@ This project concentrates on collecting data to send to a mobile application wit
 ## Dell Envision The Future Compition
 We are so proud that our team of 7 members is the First-place winner in the Dell Envision the Future competition in 2023.
 https://www.dell.com/en-ae/dt/campaigns/ecs-internet-things/envision-the-future/winners.htm#tab0=0
-![Dell Website](Dell.jpeg)
+![Dell Website](DellWinners.jpg)
 
 
 ## Hardware 
